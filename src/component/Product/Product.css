@@ -1,6 +1,8 @@
 .ProductPage {
   flex-direction: row;
   margin-top: 90px;
+  /* display: flex; */
+  flex-direction: column;
 }
 .HeaderProductPage {
   display: flex;

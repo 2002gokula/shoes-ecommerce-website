@@ -22,7 +22,7 @@ const ProductPage = () => {
     console.log(count)
   }
   return (
-    <div className="ProductPage">
+    <div className="ProductPage1">
       <div className="ProductPageleftSide">
         <div className="ProductPageTitle">
           <span>Men</span>

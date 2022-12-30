@@ -36,7 +36,7 @@
   gap: 30px;
   margin-top: 50px;
 }
-.ShopingBtn > button {
+.ShopingBtn > a > button {
   background: #ff3c78;
   border-radius: 4px;
   width: 180px;

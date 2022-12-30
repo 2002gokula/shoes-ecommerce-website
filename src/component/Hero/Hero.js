@@ -15,7 +15,9 @@ const Hero = () => {
           </p>
         </div>
         <div className="ShopingBtn">
-          <button>Shop Now</button>
+          <a href="/product">
+            <button>Shop Now</button>
+          </a>
           <FavoriteBorderOutlinedIcon />
         </div>
         <div style={{ display: "flex", gap: "50px" }}>
