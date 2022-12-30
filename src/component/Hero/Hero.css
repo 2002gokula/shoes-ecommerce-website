@@ -1,0 +1,145 @@
+.Hero {
+  display: flex;
+  padding-left: 130px;
+}
+.HeroLeft {
+  position: relative;
+}
+.HeroTitle {
+  width: 711px;
+}
+.HeroTitle > h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 80px;
+
+  letter-spacing: -0.04em;
+
+  color: #0a083a;
+}
+.Heroparag > p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  /* or 160% */
+
+  /* Granite Gray */
+
+  color: #6c6b6b;
+  max-width: 429px;
+}
+.ShopingBtn {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+.ShopingBtn > button {
+  background: #ff3c78;
+  border-radius: 4px;
+  width: 180px;
+  outline: none;
+  border: none;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #ffffff;
+  height: 46.3px;
+}
+.Checkbox {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.Checkbox > h3 {
+  color: #6c6b6b;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+.ellipse {
+  position: relative;
+}
+.cheak {
+  position: absolute;
+  padding-left: 4px;
+}
+
+.HeroRight {
+  /* position: absolute; */
+  flex: 0.1 !important;
+}
+.Shoping__HeroDesign {
+  position: relative;
+  margin-top: 90px;
+}
+.Image1 {
+  margin-top: 300px;
+}
+
+.Shoping__HeroDesign > img {
+  position: absolute;
+  max-width: 900%;
+  height: auto;
+}
+
+.BackgroupImg > img {
+  position: absolute;
+  max-inline-size: 1200%;
+  margin-top: -140px;
+  margin-left: -130px;
+  block-size: auto;
+}
+
+@media (max-width: 786px) {
+  .HeroTitle {
+    /* align-items: center; */
+    width: 311px;
+    text-align: center;
+  }
+  .HeroTitle > h1 {
+    font-size: 32px;
+  }
+  .Heroparag > p {
+    font-size: 16x;
+  }
+  .HeroTitle > h1 {
+    line-height: 50px;
+  }
+  .BackgroupImg {
+    margin-left: 80px;
+  }
+  .Hero {
+    margin-left: -40px;
+    flex-direction: column;
+  }
+  .Shoping__HeroDesign {
+    max-width: 37px;
+    margin-left: -80px;
+  }
+  .BackgroupImg > img {
+    /* margin-left: 10px; */
+  }
+}
+@media (max-width: 1200px) {
+  .Image2 {
+    display: none;
+  }
+  .Image1 {
+    display: none;
+  }
+  .Image3 {
+    display: none;
+  }
+  .Image4 {
+    display: none;
+  }
+}

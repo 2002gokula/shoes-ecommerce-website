@@ -1,0 +1,83 @@
+.Poster {
+  display: flex;
+  align-items: center;
+}
+.LeftSidePoster {
+  flex: 0.5;
+  height: 348px;
+  display: flex;
+  background: #02be83;
+}
+.RightSidePoster {
+  flex: 0.5;
+  display: flex;
+  margin-left: 4px;
+  height: 348px;
+  background: #0a083a;
+}
+.PosterLeft {
+  display: flex;
+}
+
+.PosterRigth {
+  padding: 40px 1px;
+}
+.PosterRigth > h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #0a083a;
+}
+.PosterRigth > h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  /* identical to box height, or 117% */
+
+  letter-spacing: -0.04em;
+
+  /* Primary white */
+
+  color: #ffffff;
+}
+
+.PosterRigth > p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  /* Primary white */
+
+  color: #ffffff;
+}
+.PosterRigth > button {
+  background: #0a083a;
+  border-radius: 4px;
+  padding: 10px 40px;
+  color: white;
+}
+
+@media (max-width: 786px) {
+  .Poster {
+    flex-direction: column;
+  }
+  .LeftSidePoster {
+    flex-direction: column;
+  }
+  .LeftSidePoster {
+    text-align: center;
+  }
+  .RightSidePoster {
+    flex-direction: column;
+  }
+  .RightSidePoster {
+    width: 100%;
+    text-align: center;
+    margin-right: 5px;
+  }
+}

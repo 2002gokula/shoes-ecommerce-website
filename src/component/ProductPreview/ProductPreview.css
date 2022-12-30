@@ -1,0 +1,89 @@
+.ProductPreview {
+  /* flex-direction: column; */
+  margin-top: 120px;
+  display: flex;
+}
+.ProductGBDesign {
+  padding: 220px 1px;
+  width: 60%;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background: linear-gradient(270deg, #ff3c78 2.8%, #ffb2b2 100%);
+}
+.LeftSideProduct {
+  flex: 1;
+}
+.rightsideProduct {
+  flex: 0.5;
+}
+.rightsideProduct > div > button {
+  background: #315bff;
+  outline: none;
+  border: none;
+  margin-top: 30px;
+  padding: 10px 40px;
+  box-shadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+  bottom: 90px;
+  color: white;
+  border-radius: 4px;
+}
+
+.ProductImagePreview {
+  position: absolute;
+  width: 60%;
+  height: auto;
+  transform: scale(0.9);
+  left: -80px;
+}
+.rightsideProduct > p {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  width: 70%;
+  letter-spacing: -0.04em;
+
+  color: #0a083a;
+}
+.rightsideProduct > span {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.04em;
+
+  color: #0a083a;
+}
+.ProductPreviewTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 41px;
+  text-align: center;
+  margin-top: 50px;
+  line-height: 56px;
+
+  letter-spacing: -0.04em;
+
+  color: #0a083a;
+}
+
+@media (max-width: 786px) {
+  .ProductPreview {
+    flex-direction: column;
+  }
+  .ProductGBDesign {
+    height: 30%;
+    padding: 100px 1px;
+  }
+  .ProductImagePreview {
+    left: 4%;
+    width: 90%;
+  }
+  .rightsideProduct {
+    /* display: flex; */
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .rightsideProduct > p {
+    margin-left: 90px;
+  }
+}

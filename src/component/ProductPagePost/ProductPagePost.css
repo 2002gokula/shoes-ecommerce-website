@@ -1,0 +1,42 @@
+.ProductPagePost {
+  background: rgb(103, 97, 201);
+  background: linear-gradient(
+    90deg,
+    rgba(103, 97, 201, 1) 0%,
+    rgba(62, 58, 147, 1) 13%,
+    rgba(103, 103, 236, 1) 80%
+  );
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 290px;
+}
+.Left {
+  padding-left: 80px;
+  flex: 1;
+}
+.Right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Left > h1 {
+  font-size: 44px;
+  color: white;
+}
+
+.Left > h1 > span {
+  color: rgb(183, 207, 0);
+}
+.Right > button {
+  outline: none;
+  border: none;
+  padding: 19px 40px;
+  color: white;
+  background: linear-gradient(270deg, #be02a2 0%, #ff5fb7 100%);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.39) 0px 5px 15px;
+}
